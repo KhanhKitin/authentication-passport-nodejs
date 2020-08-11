@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "project_nodejs",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "freezeTableName": true
+    },
+    "pool":{
+      "max": 10,
+      "min": 0,
+      "idle": 200000,
+      "acquire": 200000
+   }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
