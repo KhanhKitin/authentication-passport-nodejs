@@ -8,13 +8,13 @@ npm install
 
 Các bạn tạo db trước nhé, thông tin db trong file config
 
-Run bảng
+#Run bảng
 npx sequelize db:migrate 
 
-Run data mẫu
+#Run data mẫu
 npx sequelize-cli db:seed:all
 
-Run server
+#Run server
 npm start
 
 
