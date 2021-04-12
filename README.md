@@ -7,7 +7,7 @@ git clone https://github.com/KhanhKitin/authentication-passport-nodejs.git
 npm install
 ```
 
-Các bạn tạo db trước nhé, thông tin db trong file config
+Các bạn tạo database trước nhé, thông tin db trong file config
 
 Run bảng:  
 ```
