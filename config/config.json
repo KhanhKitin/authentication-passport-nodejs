@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "hoangkhanh",
     "database": "project_nodejs",
     "host": "127.0.0.1",
     "dialect": "mysql",
@@ -13,7 +13,8 @@
       "min": 0,
       "idle": 200000,
       "acquire": 200000
-   }
+   }, 
+   "logging": false
   },
   "test": {
     "username": "root",

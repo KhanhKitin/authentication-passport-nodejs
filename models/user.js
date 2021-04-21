@@ -22,7 +22,13 @@ module.exports = (sequelize, DataTypes) => {
     },
     name: {
       type: DataTypes.STRING,
-    }
+    },
+    is2FA: {
+      type: DataTypes.BOOLEAN,
+    },
+    secret_key: {
+      type: DataTypes.STRING,
+    },
   }, {
     sequelize,
     modelName: 'User',

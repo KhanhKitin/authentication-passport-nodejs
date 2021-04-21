@@ -16,6 +16,12 @@ module.exports = {
       name: {
         type: Sequelize.STRING,
       },
+      is2FA: {
+        type: Sequelize.BOOLEAN,
+      },
+      secret_key: {
+        type: Sequelize.STRING,
+      },
       createdAt: {
         type: Sequelize.DATE
       },
